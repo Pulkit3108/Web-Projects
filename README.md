@@ -1,1 +1,1 @@
-### This repository contains some simple web dev projects
+### This repository contains some simple Web Development Projects.
