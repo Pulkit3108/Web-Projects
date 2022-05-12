@@ -1,0 +1,95 @@
+#container {
+	width: 22.5rem;
+	margin: 6.25rem auto;
+	background: antiquewhite;
+	box-shadow: 0 0 0.188rem rgba(0, 0, 0, 0.1);
+}
+
+body::after {
+	content: "";
+	background: url('https://images.unsplash.com/photo-1634078111133-a1e12d6131b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1860&q=80') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+h1 {
+	background: black;
+	margin: 0;
+	color: white;
+	padding: 0.625rem 1.25rem;
+	font-size: 1.5rem;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+li {
+	background: white;
+	height: 2.8rem;
+	line-height: 2.8rem;
+	font-size: 1.125rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+li:nth-child(2n) {
+	background: #f7f7f1;
+}
+
+input {
+	font-size: 1.125rem;
+	background: white;
+	padding: 0.813rem 0.813rem 0.813rem 1.25rem;
+	width: 100%;
+	box-sizing: border-box;
+	color: black;
+	border: black solid 0.01rem;
+}
+
+input:focus {
+	background: whitesmoke;
+	outline: none;
+}
+
+.fa-plus-circle {
+	float: right;
+	cursor: pointer;
+}
+
+span {
+	background: red;
+	height: 2.8rem;
+	margin-right: 1.25rem;
+	color: white;
+	display: inline-block;
+	width: 0;
+	text-align: center;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 2.5rem;
+	opacity: 1;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+	background-color: blanchedalmond;
+}
