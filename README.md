@@ -26,7 +26,7 @@ A Simple Web App to create a To-Do list. It is made using **HTML/CSS/JS**.
 
 ### [**iNotebook**](https://github.com/Pulkit3108/Web-Projects/tree/master/iNotebook)
 
-A MERN Stack app where a user can log-in and can create, update, read and delete notes.
+A **MERN** Stack app where a user can log-in and can create, update, read and delete notes.
 
 ### Working
 
