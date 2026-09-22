@@ -1,0 +1,8 @@
+# Shared local and generated files
+.DS_Store
+node_modules/
+build/
+dist/
+.env
+.env.*
+!.env.example

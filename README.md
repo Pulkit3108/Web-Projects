@@ -1,49 +1,34 @@
-### [**News Hunter**](https://github.com/Pulkit3108/Web-Projects/tree/master/News%20Hunter)
+# Web Projects
 
-A **React** app to display current news according to different categories that are fetched from the News API.
+A collection of independent web-development learning projects built with React, Node.js, and vanilla JavaScript.
 
-> API Link: https://newsapi.org/
+| Project | Stack | Description |
+| --- | --- | --- |
+| [News Hunter](News%20Hunter/) | React | Category-based news reader using News API |
+| [TextUtils](TextUtils/) | React | Text transformation utility |
+| [To Do List](To%20Do%20List/) | HTML, CSS, JavaScript | Browser-based task list |
+| [iNotebook](iNotebook/) | MERN | Authenticated notes application |
 
-### Working
+## Screenshots
 
->![3](https://user-images.githubusercontent.com/46241207/168271712-5a8fe8a8-e18e-477c-9184-4bc87784fd88.png)
+| News Hunter | TextUtils | To Do List |
+| --- | --- | --- |
+| ![News Hunter](Docs/screenshots/news-hunter.png) | ![TextUtils](Docs/screenshots/textutils.png) | ![To Do List](Docs/screenshots/todo-list.png) |
 
-### [**TextUtils**](https://github.com/Pulkit3108/Web-Projects/tree/master/TextUtils)
+| iNotebook sign in | iNotebook notes |
+| --- | --- |
+| ![iNotebook sign in](Docs/screenshots/inotebook-login.png) | ![iNotebook notes](Docs/screenshots/inotebook-notes.png) |
 
-A **React** app to perform different operations on text.
+## Running A Project
 
-### Working
+Each directory is independent. Open the project README for its setup and run commands. React projects use their own `package.json`; do not run package commands from the repository root.
 
->![2](https://user-images.githubusercontent.com/46241207/168271711-86e6054e-6dfb-4e46-9019-9c021aa82d95.png)
+## Notes
 
-### [**To Do List**](https://github.com/Pulkit3108/Web-Projects/tree/master/To%20Do%20List)
+- This repository is a learning portfolio, not a unified application.
+- Store API keys, database URLs, and JWT secrets only in local environment files, never in Git.
+- No license has been selected. Do not assume permission to copy, modify, or redistribute the projects.
 
-A Simple Web App to create a To-Do list. It is made using **HTML/CSS/JS**.
+## Contributing
 
-### Working
-
->![1](https://user-images.githubusercontent.com/46241207/168271701-81304481-2db4-49dc-b036-4e052b96b4f0.png)
-
-### [**iNotebook**](https://github.com/Pulkit3108/Web-Projects/tree/master/iNotebook)
-
-A **MERN** Stack app where a user can log-in and can create, update, read and delete notes.
-
-### Working
-
->![Screenshot (189)](https://user-images.githubusercontent.com/46241207/168302582-1ca649fe-90a7-437b-b662-96b893d48377.png)
->![Screenshot (190)](https://user-images.githubusercontent.com/46241207/168302567-98c30e1c-b4a8-47b6-9661-b10b53b73773.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+See [CONTRIBUTING.md](CONTRIBUTING.md).
