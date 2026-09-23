@@ -9,7 +9,7 @@ A collection of independent web-development learning projects built with React, 
 | [To Do List](To%20Do%20List/) | HTML, CSS, JavaScript | Browser-based task list |
 | [iNotebook](iNotebook/) | MERN | Authenticated notes application |
 
-## Screenshots
+## Preview
 
 | News Hunter | TextUtils | To Do List |
 | --- | --- | --- |
